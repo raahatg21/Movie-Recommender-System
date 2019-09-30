@@ -41,7 +41,7 @@ It is derived from MovieLens 20M Dataset.
 
 ## Workflow
 
-1) Plot/Description Based Recommender
+### Plot/Description Based Recommender
   - Select the 'overview' of each movie
   - Convert it into TF-IDF vectors and construct TF-IDF matrix
   - Calculate the similarity score using cosine similarity
@@ -50,7 +50,7 @@ It is derived from MovieLens 20M Dataset.
     - Sort them
     - Select the 10 most similar movies to input movie
 
-2) Credits, Genres and Keywords based Recommender
+### Credits, Genres and Keywords based Recommender
   - Get the credits and keywords for each movie from separate csv files and merge them into the current dataframe
   - Convert them from 'stringified' lists to a from that is more suitable to us
   - Clean the data, convert them into lower case, and remove spaces
